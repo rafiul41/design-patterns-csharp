@@ -1,6 +1,4 @@
-﻿using System.Diagnostics;
-
-namespace SingleResponsibility
+﻿namespace SingleResponsibility
 {
   public class SingleResponsibilityExample
   {
