@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using InterfaceSegregation;
 using LiskovSubstitution;
 using OpenClosed;
 using SingleResponsibility;
@@ -9,10 +9,14 @@ Console.WriteLine("Single Responsibility Demo ---->");
 var singleResponsibilityExample = new SingleResponsibilityExample();
 singleResponsibilityExample.ExecuteDemo();
 
-Console.WriteLine("Open-closed Responsibility Demo ---->");
+Console.WriteLine("Open-closed Demo ---->");
 var openClosedExample = new OpenClosedExample();
 openClosedExample.ExecuteDemo();
 
-Console.WriteLine("Liskov Substitution Responsibility Demo ---->");
+Console.WriteLine("Liskov Substitution Demo ---->");
 var liskovSubstitutionExample = new LiskovSubstitutionExample();
 liskovSubstitutionExample.ExecuteDemo();
+
+Console.WriteLine("Interface Segregation Demo ---->");
+var interfaceSegregationExample = new InterfaceSegregationExample();
+interfaceSegregationExample.ExecuteDemo();
