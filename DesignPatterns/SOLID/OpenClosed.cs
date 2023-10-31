@@ -16,10 +16,11 @@
   {
     public void ExecuteDemo()
     {
-      var products = new List<Product>();
-      products.Add(new Product("Tree", Color.Green, Size.Medium));
-      products.Add(new Product("Pencil", Color.Red, Size.Small));
-      products.Add(new Product("House", Color.Blue, Size.Large));
+      var products = new List<Product>() {
+        new Product("Tree", Color.Green, Size.Medium),
+        new Product("Pencil", Color.Red, Size.Small),
+        new Product("House", Color.Blue, Size.Large)
+      };
 
       var productFilter = new ProductFilter();
       var filteredProducts = productFilter.FilterByColor(products, Color.Red);

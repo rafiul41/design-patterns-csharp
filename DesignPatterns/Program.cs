@@ -1,4 +1,5 @@
-﻿using InterfaceSegregation;
+﻿using DependencyInversion;
+using InterfaceSegregation;
 using LiskovSubstitution;
 using OpenClosed;
 using SingleResponsibility;
@@ -20,3 +21,7 @@ liskovSubstitutionExample.ExecuteDemo();
 Console.WriteLine("Interface Segregation Demo ---->");
 var interfaceSegregationExample = new InterfaceSegregationExample();
 interfaceSegregationExample.ExecuteDemo();
+
+Console.WriteLine("Dependency Inversion Demo ---->");
+var dependencyInversionExample = new DependencyInversionExample();
+dependencyInversionExample.ExecuteDemo();
