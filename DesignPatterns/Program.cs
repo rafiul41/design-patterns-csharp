@@ -1,5 +1,6 @@
 ﻿using Builder;
 using DependencyInversion;
+using FactoryMethod;
 using InterfaceSegregation;
 using LiskovSubstitution;
 using OpenClosed;
@@ -31,6 +32,10 @@ dependencyInversionExample.ExecuteDemo();
 Console.WriteLine("Builder Demo ---->");
 var builderExample = new BuilderExample();
 builderExample.ExecuteDemo();
+
+Console.WriteLine("Factory Method Demo ---->");
+var factoryMethodExample = new FactoryMethodExample();
+factoryMethodExample.ExecuteDemo();
 
 Console.WriteLine("Practice Demo ---->");
 var practiceExample = new PracticeExample();
