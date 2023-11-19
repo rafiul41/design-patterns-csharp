@@ -1,7 +1,9 @@
-﻿using DependencyInversion;
+﻿using Builder;
+using DependencyInversion;
 using InterfaceSegregation;
 using LiskovSubstitution;
 using OpenClosed;
+using Practice;
 using SingleResponsibility;
 
 Console.WriteLine("SOLID Principles Start ----------->");
@@ -25,3 +27,11 @@ interfaceSegregationExample.ExecuteDemo();
 Console.WriteLine("Dependency Inversion Demo ---->");
 var dependencyInversionExample = new DependencyInversionExample();
 dependencyInversionExample.ExecuteDemo();
+
+Console.WriteLine("Builder Demo ---->");
+var builderExample = new BuilderExample();
+builderExample.ExecuteDemo();
+
+Console.WriteLine("Practice Demo ---->");
+var practiceExample = new PracticeExample();
+practiceExample.ExecuteDemo();
